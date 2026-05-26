@@ -32,7 +32,8 @@ function initDb() {
       trains      TEXT NOT NULL,
       depth       TEXT NOT NULL,
       order_hint  INTEGER NOT NULL,
-      lineage     TEXT
+      lineage     TEXT,
+      context     TEXT
     );
 
     CREATE TABLE IF NOT EXISTS entries (
@@ -79,8 +80,8 @@ function initDb() {
 function seedPrompts(db) {
   const data = JSON.parse(fs.readFileSync(SEED_PATH, 'utf-8'));
   const insert = db.prepare(`
-    INSERT OR REPLACE INTO prompts (id, craft_area, text, trains, depth, order_hint, lineage)
-    VALUES (@id, @craft_area, @text, @trains, @depth, @order_hint, @lineage)
+    INSERT OR REPLACE INTO prompts (id, craft_area, text, trains, depth, order_hint, lineage, context)
+    VALUES (@id, @craft_area, @text, @trains, @depth, @order_hint, @lineage, @context)
   `);
   const insertAll = db.transaction((prompts) => {
     for (const p of prompts) insert.run(p);
