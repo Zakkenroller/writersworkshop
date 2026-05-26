@@ -1,0 +1,7 @@
+node_modules/
+data/workshop.db
+data/workshop.db-wal
+data/workshop.db-shm
+client/dist/
+.env
+.env.local

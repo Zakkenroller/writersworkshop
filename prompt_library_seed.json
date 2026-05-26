@@ -1,0 +1,442 @@
+{
+  "_meta": {
+    "description": "Starter prompt library for the Morning Craft Prompt App. Original exercises authored in the spirit of the MFA-workshop craft traditions (Novakovich, LaPlante, Le Guin, Burroway, Baxter, Alison, Forster). Not reproductions of any book's exercises. Edit and expand freely.",
+    "version": 1,
+    "craft_areas": ["character", "sensory", "dialogue", "theme"],
+    "depth_values": ["quick", "focused", "deep"]
+  },
+  "prompts": [
+    {
+      "id": "char-01",
+      "craft_area": "character",
+      "text": "Describe a person entirely through the contents of one drawer, one bag, or one set of pockets. Do not name a single personality trait. Let the objects do all the work.",
+      "trains": "Characterization through concrete detail rather than assertion",
+      "depth": "quick",
+      "order_hint": 1,
+      "lineage": "Burroway / Novakovich: character via the telling detail"
+    },
+    {
+      "id": "char-02",
+      "craft_area": "character",
+      "text": "Write a character who states a value out loud, then in the same page takes an action that quietly contradicts it. Don't comment on the gap.",
+      "trains": "Contradiction as the engine of believable character",
+      "depth": "focused",
+      "order_hint": 2,
+      "lineage": "Forster: round characters who can surprise convincingly"
+    },
+    {
+      "id": "char-03",
+      "craft_area": "character",
+      "text": "Give your character a surface want (to win the argument, to get the job) and a deeper, partly hidden need (to be forgiven, to be seen). Write a scene where they chase the want while the need leaks through.",
+      "trains": "Desire structure: want versus need",
+      "depth": "deep",
+      "order_hint": 3,
+      "lineage": "Workshop standard: motivation and the dramatic question"
+    },
+    {
+      "id": "char-04",
+      "craft_area": "character",
+      "text": "Write the lie a character tells themselves to get through the day. Then write the small moment that almost cracks it.",
+      "trains": "Interiority and self-deception as character depth",
+      "depth": "focused",
+      "order_hint": 4,
+      "lineage": "Baxter: subtext and the interior life"
+    },
+    {
+      "id": "char-05",
+      "craft_area": "character",
+      "text": "Put a character in a dull wait \u2014 a waiting room, a bus stop, a hold queue \u2014 and render two minutes of their unspoken thought. Let association, not event, carry it.",
+      "trains": "Sustained interior monologue without external action",
+      "depth": "deep",
+      "order_hint": 5,
+      "lineage": "Novakovich: interior monologue and stream of thought"
+    },
+    {
+      "id": "char-06",
+      "craft_area": "character",
+      "text": "Narrate an ordinary event in third person, but let the diction, rhythm, and judgments belong to the character \u2014 so the prose sounds like them without ever using quotation marks.",
+      "trains": "Free indirect style",
+      "depth": "deep",
+      "order_hint": 6,
+      "lineage": "Wood / Flaubertian free indirect discourse"
+    },
+    {
+      "id": "char-07",
+      "craft_area": "character",
+      "text": "An inherited object \u2014 a watch, a recipe card, a tool. Write the character handling it and the single memory it pulls up. Keep the backstory inside the present moment.",
+      "trains": "Backstory delivered through present action",
+      "depth": "focused",
+      "order_hint": 7,
+      "lineage": "LaPlante: showing the past through the present"
+    },
+    {
+      "id": "char-08",
+      "craft_area": "character",
+      "text": "Hand your character a small public humiliation \u2014 a spill, a wrong name, a misread joke. Write only their response, internal and external. The size of the reaction reveals the person.",
+      "trains": "Character revealed under pressure",
+      "depth": "quick",
+      "order_hint": 8,
+      "lineage": "Workshop standard: pressure as a developer"
+    },
+    {
+      "id": "char-09",
+      "craft_area": "character",
+      "text": "Two people witness the same five-second event. Write each one's private reading of it. Make the gap between their interpretations the real subject.",
+      "trains": "Subjectivity and the gap between perceptions",
+      "depth": "focused",
+      "order_hint": 9,
+      "lineage": "Burroway: point of view as character"
+    },
+    {
+      "id": "char-10",
+      "craft_area": "character",
+      "text": "Find the one repeated gesture \u2014 a touch of the collar, a way of laughing \u2014 that betrays what your character is feeling but won't say. Write the scene around that tell.",
+      "trains": "Behavioral detail as a window to interiority",
+      "depth": "quick",
+      "order_hint": 10,
+      "lineage": "Novakovich: gesture and habitual action"
+    },
+    {
+      "id": "char-11",
+      "craft_area": "character",
+      "text": "Characterize someone entirely by what they refuse \u2014 the food they won't eat, the question they won't answer, the room they won't enter. Negative space only.",
+      "trains": "Characterization through absence and refusal",
+      "depth": "focused",
+      "order_hint": 11,
+      "lineage": "Baxter: the unsaid and the withheld"
+    },
+    {
+      "id": "char-12",
+      "craft_area": "character",
+      "text": "Write one page in which every sentence, directly or sideways, advances a single longing. Don't name the longing until the last line \u2014 or never.",
+      "trains": "Unifying a scene around one desire",
+      "depth": "deep",
+      "order_hint": 12,
+      "lineage": "Workshop standard: the desire line"
+    },
+    {
+      "id": "sens-01",
+      "craft_area": "sensory",
+      "text": "Describe a room using sound alone. No sight, no naming of objects unless you hear them. Let the reader assemble the space by ear.",
+      "trains": "Isolating a single sense to sharpen perception",
+      "depth": "quick",
+      "order_hint": 1,
+      "lineage": "Le Guin: sound and the auditory imagination"
+    },
+    {
+      "id": "sens-02",
+      "craft_area": "sensory",
+      "text": "Start with a smell and follow it backward into a memory. Write the smell first, in full, before any narrative arrives.",
+      "trains": "Scent as a trigger for involuntary memory",
+      "depth": "focused",
+      "order_hint": 2,
+      "lineage": "Proustian sensory memory"
+    },
+    {
+      "id": "sens-03",
+      "craft_area": "sensory",
+      "text": "Take an emotion \u2014 dread, relief, grief \u2014 and render it as pure physical sensation in the body. Where does it sit? What is its temperature, weight, texture? Never name the emotion.",
+      "trains": "Translating feeling into the body, avoiding abstraction",
+      "depth": "focused",
+      "order_hint": 3,
+      "lineage": "Novakovich: concrete over abstract"
+    },
+    {
+      "id": "sens-04",
+      "craft_area": "sensory",
+      "text": "Describe a person you know through one exact detail \u2014 the right detail, not three vague ones. Spend the whole paragraph earning that single image.",
+      "trains": "The telling detail; precision over accumulation",
+      "depth": "quick",
+      "order_hint": 4,
+      "lineage": "Wood / Chekhovian telling detail"
+    },
+    {
+      "id": "sens-05",
+      "craft_area": "sensory",
+      "text": "Describe a sound as if it had texture, or a color as if it had a taste. Cross two senses deliberately and follow where the comparison leads.",
+      "trains": "Synesthetic imagery and fresh comparison",
+      "depth": "quick",
+      "order_hint": 5,
+      "lineage": "Le Guin: the music and texture of perception"
+    },
+    {
+      "id": "sens-06",
+      "craft_area": "sensory",
+      "text": "Write a charged moment using only temperature and texture \u2014 what the skin registers. The warmth of a held hand, the grit on a railing. Let touch carry the feeling.",
+      "trains": "Tactile writing; emotion through the body's surface",
+      "depth": "focused",
+      "order_hint": 6,
+      "lineage": "LaPlante: sensory grounding"
+    },
+    {
+      "id": "sens-07",
+      "craft_area": "sensory",
+      "text": "Use weather as pressure on a scene without commenting on it. Let the heat, the wet, the wind do emotional work while the characters pretend not to notice.",
+      "trains": "Atmosphere as deliberate, unstated mood",
+      "depth": "focused",
+      "order_hint": 7,
+      "lineage": "Burroway: setting as emotional force"
+    },
+    {
+      "id": "sens-08",
+      "craft_area": "sensory",
+      "text": "Locate a feeling in one part of the body and stay there for a full paragraph \u2014 the jaw, the chest, the hands. Track the sensation as it shifts. Resist moving to thought.",
+      "trains": "Somatic writing; staying with bodily sensation",
+      "depth": "deep",
+      "order_hint": 8,
+      "lineage": "Contemporary somatic craft practice"
+    },
+    {
+      "id": "sens-09",
+      "craft_area": "sensory",
+      "text": "Describe a completely ordinary object \u2014 a spoon, a doorknob \u2014 as if you had never seen one and have no word for it. Make the familiar strange.",
+      "trains": "Defamiliarization; refreshing perception",
+      "depth": "quick",
+      "order_hint": 9,
+      "lineage": "Le Guin / Shklovsky: making strange"
+    },
+    {
+      "id": "sens-10",
+      "craft_area": "sensory",
+      "text": "Write the most emotional scene you can imagine using only flat, plain, unadorned sensory detail. No adjectives of feeling. Let restraint do the damage.",
+      "trains": "Emotional power through understatement",
+      "depth": "deep",
+      "order_hint": 10,
+      "lineage": "Hemingway / iceberg restraint"
+    },
+    {
+      "id": "sens-11",
+      "craft_area": "sensory",
+      "text": "Build a scene where sound carries all the tension \u2014 a clock, footsteps, a dripping tap, a held breath. The reader should feel suspense through the ear.",
+      "trains": "Sound as structural and emotional device",
+      "depth": "focused",
+      "order_hint": 11,
+      "lineage": "Le Guin: rhythm and sound as structure"
+    },
+    {
+      "id": "sens-12",
+      "craft_area": "sensory",
+      "text": "Map an inner state onto a landscape \u2014 not as decoration, but as if the place were the feeling. Then cut every line that explains the connection.",
+      "trains": "Objective correlative; landscape as emotion",
+      "depth": "deep",
+      "order_hint": 12,
+      "lineage": "Eliot's objective correlative; Baxter"
+    },
+    {
+      "id": "dial-01",
+      "craft_area": "dialogue",
+      "text": "Write an argument in which the real subject is never named. The couple fights about the dishes; it is not about the dishes. Keep the true topic entirely in the subtext.",
+      "trains": "Subtext: the gap between what is said and meant",
+      "depth": "focused",
+      "order_hint": 1,
+      "lineage": "Baxter / Novakovich: subtext in dialogue"
+    },
+    {
+      "id": "dial-02",
+      "craft_area": "dialogue",
+      "text": "Write a full exchange between two people using only 'said' and physical action beats. No adverbs, no fancy tags. Let the beats carry tone.",
+      "trains": "Clean dialogue mechanics; action beats over adverbs",
+      "depth": "quick",
+      "order_hint": 2,
+      "lineage": "Novakovich / Leonard: dialogue discipline"
+    },
+    {
+      "id": "dial-03",
+      "craft_area": "dialogue",
+      "text": "Take one neutral line \u2014 'You're early' \u2014 and give it to three different characters so it reads three different ways. Surround each with just enough context to bend the meaning.",
+      "trains": "Voice differentiation and context shaping meaning",
+      "depth": "quick",
+      "order_hint": 3,
+      "lineage": "Burroway: voice and characterization through speech"
+    },
+    {
+      "id": "dial-04",
+      "craft_area": "dialogue",
+      "text": "Write a conversation where control visibly passes from one speaker to the other. Track the power as it moves. End at the moment the shift completes.",
+      "trains": "Power dynamics and momentum in dialogue",
+      "depth": "focused",
+      "order_hint": 4,
+      "lineage": "Workshop standard: status and conflict"
+    },
+    {
+      "id": "dial-05",
+      "craft_area": "dialogue",
+      "text": "Write a character who answers every question without ever actually answering it. Make the evasion itself reveal them.",
+      "trains": "Withholding; evasion as characterization",
+      "depth": "focused",
+      "order_hint": 5,
+      "lineage": "Baxter: the request moment and refusal"
+    },
+    {
+      "id": "dial-06",
+      "craft_area": "dialogue",
+      "text": "Render a distinctive way of speaking \u2014 regional, generational, occupational \u2014 through word choice, rhythm, and syntax only. No phonetic misspelling allowed.",
+      "trains": "Idiolect without dialect-spelling crutches",
+      "depth": "deep",
+      "order_hint": 6,
+      "lineage": "Le Guin: voice through syntax and diction"
+    },
+    {
+      "id": "dial-07",
+      "craft_area": "dialogue",
+      "text": "Write a two-person scene where the most important thing is never spoken. Use pauses, deflections, and a single unfinished sentence. Let the silence do the work.",
+      "trains": "The unsaid; pacing through silence",
+      "depth": "focused",
+      "order_hint": 7,
+      "lineage": "Baxter: stillness and the unspoken"
+    },
+    {
+      "id": "dial-08",
+      "craft_area": "dialogue",
+      "text": "Write a single uninterrupted monologue in which the speaker reveals far more than they intend. The reader should know something the speaker doesn't.",
+      "trains": "Dramatic irony through unguarded speech",
+      "depth": "deep",
+      "order_hint": 8,
+      "lineage": "Browning's dramatic monologue tradition"
+    },
+    {
+      "id": "dial-09",
+      "craft_area": "dialogue",
+      "text": "Two people who are not really listening to each other. Write the conversation so each is following a separate track, and let the near-misses build.",
+      "trains": "Cross-purpose dialogue and comic/tragic friction",
+      "depth": "focused",
+      "order_hint": 9,
+      "lineage": "Pinter-esque non-communication"
+    },
+    {
+      "id": "dial-10",
+      "craft_area": "dialogue",
+      "text": "Write a paragraph of speech in the voice of someone as unlike you as you can manage \u2014 different age, region, temperament. Inhabit the rhythm, not a caricature.",
+      "trains": "Range; finding voices outside your own",
+      "depth": "deep",
+      "order_hint": 10,
+      "lineage": "LaPlante: stretching voice"
+    },
+    {
+      "id": "dial-11",
+      "craft_area": "dialogue",
+      "text": "Bury a piece of necessary backstory inside an argument, so the exposition arrives as ammunition rather than information.",
+      "trains": "Exposition through conflict, not info-dump",
+      "depth": "focused",
+      "order_hint": 11,
+      "lineage": "Workshop standard: dramatized exposition"
+    },
+    {
+      "id": "dial-12",
+      "craft_area": "dialogue",
+      "text": "Write one side of a phone call. From the single speaker's words and pauses, the reader should be able to reconstruct the unheard person on the other end.",
+      "trains": "Implication; rendering the absent speaker",
+      "depth": "focused",
+      "order_hint": 12,
+      "lineage": "Classic one-sided dialogue exercise"
+    },
+    {
+      "id": "theme-01",
+      "craft_area": "theme",
+      "text": "Write two sentences about the same events: first as a bare sequence ('The king died, the queen died'), then as a causal story ('and the queen died of grief'). Feel the difference causation makes.",
+      "trains": "Story versus plot; the role of causation",
+      "depth": "quick",
+      "order_hint": 1,
+      "lineage": "Forster: story vs. plot"
+    },
+    {
+      "id": "theme-02",
+      "craft_area": "theme",
+      "text": "Write one paragraph that compresses ten years into a few lines, then a second that slows a single minute to fill the same space. Practice both gears.",
+      "trains": "Scene and summary; controlling narrative time",
+      "depth": "focused",
+      "order_hint": 2,
+      "lineage": "Burroway: pacing, scene vs. summary"
+    },
+    {
+      "id": "theme-03",
+      "craft_area": "theme",
+      "text": "Write the single moment in which something becomes irreversible \u2014 a line crossed, a thing said that can't be unsaid. Just the turn, nothing before or after.",
+      "trains": "The turn; identifying the pivot of a story",
+      "depth": "focused",
+      "order_hint": 3,
+      "lineage": "Workshop standard: the turn / reversal"
+    },
+    {
+      "id": "theme-04",
+      "craft_area": "theme",
+      "text": "Plant a small, almost trivial action early in a piece. Then bring it back, transformed, at the end so it rhymes. Write both beats.",
+      "trains": "Rhyming action; structural echo",
+      "depth": "deep",
+      "order_hint": 4,
+      "lineage": "Baxter: rhyming action"
+    },
+    {
+      "id": "theme-05",
+      "craft_area": "theme",
+      "text": "Open a scene in the middle of motion, with no setup, no establishing, no throat-clearing. The reader catches up while running.",
+      "trains": "In medias res openings",
+      "depth": "quick",
+      "order_hint": 5,
+      "lineage": "Classical in medias res"
+    },
+    {
+      "id": "theme-06",
+      "craft_area": "theme",
+      "text": "Choose one image \u2014 a key, a scar, a stalled clock \u2014 and thread it through three separate beats so it gathers meaning each time it returns.",
+      "trains": "Recurring image; motif as meaning-maker",
+      "depth": "deep",
+      "order_hint": 6,
+      "lineage": "Forster: pattern and rhythm"
+    },
+    {
+      "id": "theme-07",
+      "craft_area": "theme",
+      "text": "Structure a short piece as a spiral: return to the same situation two or three times, but let the narrator be changed at each return. No straight arc allowed.",
+      "trains": "Non-linear structure; pattern beyond the dramatic arc",
+      "depth": "deep",
+      "order_hint": 7,
+      "lineage": "Alison: meander, spiral, explode"
+    },
+    {
+      "id": "theme-08",
+      "craft_area": "theme",
+      "text": "Write a present-tense moment that opens to contain a remembered one, then closes again \u2014 a frame around a memory. Make the return to the present land differently than the departure.",
+      "trains": "Framed structure; nesting past inside present",
+      "depth": "focused",
+      "order_hint": 8,
+      "lineage": "Workshop standard: frame narrative"
+    },
+    {
+      "id": "theme-09",
+      "craft_area": "theme",
+      "text": "Write only the final paragraph of a story you haven't written. Make it resonate and imply rather than explain or resolve.",
+      "trains": "Endings; resonance over explanation",
+      "depth": "focused",
+      "order_hint": 9,
+      "lineage": "Baxter: endings and the open close"
+    },
+    {
+      "id": "theme-10",
+      "craft_area": "theme",
+      "text": "Write a chain of three events in which each one forces the next \u2014 remove the middle event and the third can't happen. Test the causal spine.",
+      "trains": "Causal structure; consequence as plot",
+      "depth": "focused",
+      "order_hint": 10,
+      "lineage": "Novakovich: plot as causation"
+    },
+    {
+      "id": "theme-11",
+      "craft_area": "theme",
+      "text": "Let a theme emerge through repetition rather than statement. Pick an idea \u2014 say, the cost of leaving \u2014 and write three small images that carry it. Never name the theme.",
+      "trains": "Theme by implication, not declaration",
+      "depth": "deep",
+      "order_hint": 11,
+      "lineage": "Workshop standard: dramatized theme"
+    },
+    {
+      "id": "theme-12",
+      "craft_area": "theme",
+      "text": "Tell a whole life in a single page. Decide what to compress, what to dwell on, and what one detail must carry the weight of decades.",
+      "trains": "Compression; selection across a large time span",
+      "depth": "deep",
+      "order_hint": 12,
+      "lineage": "Alison / Burroway: compression and selection"
+    }
+  ]
+}
