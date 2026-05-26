@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Starter prompt library for the Morning Craft Prompt App. Original exercises authored in the spirit of the MFA-workshop craft traditions (Novakovich, LaPlante, Le Guin, Burroway, Baxter, Alison, Forster). Not reproductions of any book's exercises. Edit and expand freely.",
-    "version": 1,
+    "version": 2,
     "craft_areas": ["character", "sensory", "dialogue", "theme"],
     "depth_values": ["quick", "focused", "deep"]
   },
@@ -13,7 +13,8 @@
       "trains": "Characterization through concrete detail rather than assertion",
       "depth": "quick",
       "order_hint": 1,
-      "lineage": "Burroway / Novakovich: character via the telling detail"
+      "lineage": "Burroway / Novakovich: character via the telling detail",
+      "context": "The inventory of what a person keeps — and how they keep it — speaks louder than any adjective you could assign them. A hoarder's junk drawer and a minimalist's junk drawer tell completely different stories without ever using the words \"hoarder\" or \"minimalist.\" The discipline here is resisting the urge to comment: let the objects carry the full weight, and trust your reader to assemble the person. If you find yourself writing \"this showed that she was...\" you've broken the exercise."
     },
     {
       "id": "char-02",
@@ -22,7 +23,8 @@
       "trains": "Contradiction as the engine of believable character",
       "depth": "focused",
       "order_hint": 2,
-      "lineage": "Forster: round characters who can surprise convincingly"
+      "lineage": "Forster: round characters who can surprise convincingly",
+      "context": "Real people almost never do what they say they believe — and that gap is where character lives. The contradiction doesn't have to be dramatic; a tiny betrayal of a stated principle is often more revealing than a large one. The crucial instruction is the last one: don't comment on the gap. The moment you editorialize — \"ironically,\" \"without realizing,\" \"despite herself\" — you rob the reader of the discovery. Let the two moments sit next to each other and trust the friction to do its work."
     },
     {
       "id": "char-03",
@@ -31,7 +33,8 @@
       "trains": "Desire structure: want versus need",
       "depth": "deep",
       "order_hint": 3,
-      "lineage": "Workshop standard: motivation and the dramatic question"
+      "lineage": "Workshop standard: motivation and the dramatic question",
+      "context": "Want versus need is one of the most reliable engines in fiction. The want is what the character would tell you they're after; the need is what they'd never admit, sometimes even to themselves. The richness comes when these two pull in slightly different directions — the character chases the want, but every choice they make in doing so inadvertently reveals the need. You're not looking for a dramatic confrontation between the two; you're looking for the need to leak, quietly, through the seams of the want."
     },
     {
       "id": "char-04",
@@ -40,43 +43,48 @@
       "trains": "Interiority and self-deception as character depth",
       "depth": "focused",
       "order_hint": 4,
-      "lineage": "Baxter: subtext and the interior life"
+      "lineage": "Baxter: subtext and the interior life",
+      "context": "Self-deception is one of the most universal human experiences and one of the hardest to render on the page without becoming preachy. The trick is to present the lie with the same earnestness that the character holds it — you, the author, should not tip your hand. Then find the moment that almost cracks it: a word someone says, an object that catches the light wrong, a memory that surfaces uninvited. The \"almost\" is important — a lie that fully breaks is a different, longer story."
     },
     {
       "id": "char-05",
       "craft_area": "character",
-      "text": "Put a character in a dull wait \u2014 a waiting room, a bus stop, a hold queue \u2014 and render two minutes of their unspoken thought. Let association, not event, carry it.",
+      "text": "Put a character in a dull wait — a waiting room, a bus stop, a hold queue — and render two minutes of their unspoken thought. Let association, not event, carry it.",
       "trains": "Sustained interior monologue without external action",
       "depth": "deep",
       "order_hint": 5,
-      "lineage": "Novakovich: interior monologue and stream of thought"
+      "lineage": "Novakovich: interior monologue and stream of thought",
+      "context": "Waiting is one of the few situations where we're entirely at the mercy of our own minds, which makes it a perfect container for interior monologue. The challenge is following the actual movement of thought: association, digression, the way one image pulls up another with no logical connection. Resist the urge to make the thoughts too coherent or thematically tidy — real interior monologue is messier and more interesting than that. The event (the wait) should stay genuinely dull; the interest comes entirely from the texture of the mind moving through it."
     },
     {
       "id": "char-06",
       "craft_area": "character",
-      "text": "Narrate an ordinary event in third person, but let the diction, rhythm, and judgments belong to the character \u2014 so the prose sounds like them without ever using quotation marks.",
+      "text": "Narrate an ordinary event in third person, but let the diction, rhythm, and judgments belong to the character — so the prose sounds like them without ever using quotation marks.",
       "trains": "Free indirect style",
       "depth": "deep",
       "order_hint": 6,
-      "lineage": "Wood / Flaubertian free indirect discourse"
+      "lineage": "Wood / Flaubertian free indirect discourse",
+      "context": "Free indirect style is one of the most powerful tools in literary fiction — it lets you inhabit a character's consciousness without the limitations of first person. The test is whether a line could plausibly come from the character's mouth if you moved the quotation marks. A character who thinks in short declarative sentences should produce short declarative prose; one who qualifies everything should produce hedged, circling sentences. Watch for your own voice leaking back in — every word choice is a choice about whose mind we're in."
     },
     {
       "id": "char-07",
       "craft_area": "character",
-      "text": "An inherited object \u2014 a watch, a recipe card, a tool. Write the character handling it and the single memory it pulls up. Keep the backstory inside the present moment.",
+      "text": "An inherited object — a watch, a recipe card, a tool. Write the character handling it and the single memory it pulls up. Keep the backstory inside the present moment.",
       "trains": "Backstory delivered through present action",
       "depth": "focused",
       "order_hint": 7,
-      "lineage": "LaPlante: showing the past through the present"
+      "lineage": "LaPlante: showing the past through the present",
+      "context": "Objects are time machines. The skill being practiced here is keeping the backstory inside the present moment — the memory should surface through the character's handling of the object, not through a separate flashback section. Every detail of the memory should be filtered through how it feels to recall it right now, in this moment, with this object in hand. The past should feel present, not reported."
     },
     {
       "id": "char-08",
       "craft_area": "character",
-      "text": "Hand your character a small public humiliation \u2014 a spill, a wrong name, a misread joke. Write only their response, internal and external. The size of the reaction reveals the person.",
+      "text": "Hand your character a small public humiliation — a spill, a wrong name, a misread joke. Write only their response, internal and external. The size of the reaction reveals the person.",
       "trains": "Character revealed under pressure",
       "depth": "quick",
       "order_hint": 8,
-      "lineage": "Workshop standard: pressure as a developer"
+      "lineage": "Workshop standard: pressure as a developer",
+      "context": "How a person responds to embarrassment is remarkably diagnostic. The exercise works because the stakes are low enough that the response can't be explained away by circumstance — this is the character operating on instinct. Pay attention to the ratio of internal to external response: does the character immediately perform composure? Overcorrect? Go very still? The \"size of the reaction\" refers to the gap between the actual event (small) and the character's internal registration of it (potentially enormous)."
     },
     {
       "id": "char-09",
@@ -85,34 +93,38 @@
       "trains": "Subjectivity and the gap between perceptions",
       "depth": "focused",
       "order_hint": 9,
-      "lineage": "Burroway: point of view as character"
+      "lineage": "Burroway: point of view as character",
+      "context": "Perception is never neutral — what we notice and how we interpret it is entirely determined by who we are and what we're carrying. This exercise forces you to inhabit two genuinely different subjectivities, not just two different \"takes.\" The gap between their interpretations shouldn't feel like one person being right and one being wrong; both should be plausible readings, each revealing something about the reader rather than the event. The harder version: don't tell us which reading is \"correct.\""
     },
     {
       "id": "char-10",
       "craft_area": "character",
-      "text": "Find the one repeated gesture \u2014 a touch of the collar, a way of laughing \u2014 that betrays what your character is feeling but won't say. Write the scene around that tell.",
+      "text": "Find the one repeated gesture — a touch of the collar, a way of laughing — that betrays what your character is feeling but won't say. Write the scene around that tell.",
       "trains": "Behavioral detail as a window to interiority",
       "depth": "quick",
       "order_hint": 10,
-      "lineage": "Novakovich: gesture and habitual action"
+      "lineage": "Novakovich: gesture and habitual action",
+      "context": "Habitual physical gestures — especially unconscious ones — are windows into what a character can't say directly. The gesture should be specific enough to be unmistakable and recurring enough to feel like a signature. The scene's job is to put the character in a situation where the gesture becomes meaningful: if they always touch their collar when they're lying, build a scene where a lie is required. Don't name what the gesture means — just let it appear at the telling moment and move on."
     },
     {
       "id": "char-11",
       "craft_area": "character",
-      "text": "Characterize someone entirely by what they refuse \u2014 the food they won't eat, the question they won't answer, the room they won't enter. Negative space only.",
+      "text": "Characterize someone entirely by what they refuse — the food they won't eat, the question they won't answer, the room they won't enter. Negative space only.",
       "trains": "Characterization through absence and refusal",
       "depth": "focused",
       "order_hint": 11,
-      "lineage": "Baxter: the unsaid and the withheld"
+      "lineage": "Baxter: the unsaid and the withheld",
+      "context": "Negative space is one of the most underused tools in characterization. What a person won't do, won't eat, won't enter, won't discuss — these absences carry enormous weight precisely because they're chosen. The discipline here is staying entirely in the negative: resist the temptation to give us anything positive to balance it. A character defined only by refusals is unsettling in a productive way, and that discomfort is part of what the exercise is training you to create and sustain."
     },
     {
       "id": "char-12",
       "craft_area": "character",
-      "text": "Write one page in which every sentence, directly or sideways, advances a single longing. Don't name the longing until the last line \u2014 or never.",
+      "text": "Write one page in which every sentence, directly or sideways, advances a single longing. Don't name the longing until the last line — or never.",
       "trains": "Unifying a scene around one desire",
       "depth": "deep",
       "order_hint": 12,
-      "lineage": "Workshop standard: the desire line"
+      "lineage": "Workshop standard: the desire line",
+      "context": "Desire is one of the engines that makes prose move — but it's easy to let it scatter across a page rather than accumulate. This exercise practices the discipline of organizing everything around one central pull. Every sentence doesn't have to mention the longing explicitly; it just has to be in service of it — the choice of what to notice, what to describe, what to linger on. The instruction to wait until the last line (or never) to name it is crucial: naming a desire too early tends to flatten it."
     },
     {
       "id": "sens-01",
@@ -121,7 +133,8 @@
       "trains": "Isolating a single sense to sharpen perception",
       "depth": "quick",
       "order_hint": 1,
-      "lineage": "Le Guin: sound and the auditory imagination"
+      "lineage": "Le Guin: sound and the auditory imagination",
+      "context": "Stripping away sight forces a kind of attention we rarely practice. We're so visually dominant that even when we try to write sound, we often end up describing what we see that makes the sound. The discipline is committing fully: if you can't hear it, it doesn't exist. Notice how sound alone assembles space differently — you get edges and distances and textures without shapes or colors. Let the reader do the visual work from the auditory information you provide."
     },
     {
       "id": "sens-02",
@@ -130,25 +143,28 @@
       "trains": "Scent as a trigger for involuntary memory",
       "depth": "focused",
       "order_hint": 2,
-      "lineage": "Proustian sensory memory"
+      "lineage": "Proustian sensory memory",
+      "context": "Smell bypasses the rational mind more directly than any other sense — it routes to memory and emotion before language can intervene. That involuntary quality is what the exercise is after. The instruction to write the smell \"in full, before any narrative arrives\" is important: most writers rush past the smell to get to the story it triggers. Slow down in the smell itself. What are its layers? Does it shift? Only when you've fully rendered it should you let the memory surface."
     },
     {
       "id": "sens-03",
       "craft_area": "sensory",
-      "text": "Take an emotion \u2014 dread, relief, grief \u2014 and render it as pure physical sensation in the body. Where does it sit? What is its temperature, weight, texture? Never name the emotion.",
+      "text": "Take an emotion — dread, relief, grief — and render it as pure physical sensation in the body. Where does it sit? What is its temperature, weight, texture? Never name the emotion.",
       "trains": "Translating feeling into the body, avoiding abstraction",
       "depth": "focused",
       "order_hint": 3,
-      "lineage": "Novakovich: concrete over abstract"
+      "lineage": "Novakovich: concrete over abstract",
+      "context": "Abstract emotion words — grief, dread, joy — are actually quite weak on the page because they tell the reader what to feel rather than making them feel it. The body is more honest and more specific: dread sits differently in the chest of a person who grew up around violence than in someone who didn't. The prohibition on naming the emotion is the whole exercise. If you find yourself reaching for the abstract word, you haven't yet found the physical correlate precise enough to carry it."
     },
     {
       "id": "sens-04",
       "craft_area": "sensory",
-      "text": "Describe a person you know through one exact detail \u2014 the right detail, not three vague ones. Spend the whole paragraph earning that single image.",
+      "text": "Describe a person you know through one exact detail — the right detail, not three vague ones. Spend the whole paragraph earning that single image.",
       "trains": "The telling detail; precision over accumulation",
       "depth": "quick",
       "order_hint": 4,
-      "lineage": "Wood / Chekhovian telling detail"
+      "lineage": "Wood / Chekhovian telling detail",
+      "context": "The impulse in description is to accumulate — three adjectives, four details, a catalog of features. But the most vivid portraits in fiction typically hinge on one specific detail so right that it makes everything else unnecessary. The skill is selecting rather than listing. Spend the paragraph not cataloging the person, but earning the one detail that makes the reader feel they know something true, not just something accurate."
     },
     {
       "id": "sens-05",
@@ -157,16 +173,18 @@
       "trains": "Synesthetic imagery and fresh comparison",
       "depth": "quick",
       "order_hint": 5,
-      "lineage": "Le Guin: the music and texture of perception"
+      "lineage": "Le Guin: the music and texture of perception",
+      "context": "Synesthesia — crossing sensory domains — breaks the automatic pilot we engage when describing the familiar. We have received language for most sensory experiences; synesthetic comparison forces you off that path and toward something genuinely perceived. Follow where the comparison leads: don't settle for the first cross-sense word that comes. The more unexpected and precise the crossing, the better. The goal isn't strangeness for its own sake but accuracy through an unexpected angle."
     },
     {
       "id": "sens-06",
       "craft_area": "sensory",
-      "text": "Write a charged moment using only temperature and texture \u2014 what the skin registers. The warmth of a held hand, the grit on a railing. Let touch carry the feeling.",
+      "text": "Write a charged moment using only temperature and texture — what the skin registers. The warmth of a held hand, the grit on a railing. Let touch carry the feeling.",
       "trains": "Tactile writing; emotion through the body's surface",
       "depth": "focused",
       "order_hint": 6,
-      "lineage": "LaPlante: sensory grounding"
+      "lineage": "LaPlante: sensory grounding",
+      "context": "Touch is the most intimate sense and the one we most often skip in prose. The skin registers the world with extraordinary specificity — the difference between warm cotton and warm skin, between grit and sand. The exercise asks you to trust that specificity entirely, without any emotional commentary. Temperature and texture carry emotional charge on their own: think of how much is contained in the warmth of a held hand versus the cold of a door handle at 3am. Let the tactile carry what the emotional can't say directly."
     },
     {
       "id": "sens-07",
@@ -175,25 +193,28 @@
       "trains": "Atmosphere as deliberate, unstated mood",
       "depth": "focused",
       "order_hint": 7,
-      "lineage": "Burroway: setting as emotional force"
+      "lineage": "Burroway: setting as emotional force",
+      "context": "Weather in fiction is most powerful when it works on the scene without being acknowledged by the characters — when it's simply the atmosphere they move through, doing emotional work beneath the surface. The \"characters pretending not to notice\" is key: this creates a gap between what the reader feels (pressure, heat, the closing-in of a storm) and what the characters admit (nothing). Avoid the trap of matching weather to mood too neatly — weather that subtly contradicts or complicates the emotional content is often more interesting."
     },
     {
       "id": "sens-08",
       "craft_area": "sensory",
-      "text": "Locate a feeling in one part of the body and stay there for a full paragraph \u2014 the jaw, the chest, the hands. Track the sensation as it shifts. Resist moving to thought.",
+      "text": "Locate a feeling in one part of the body and stay there for a full paragraph — the jaw, the chest, the hands. Track the sensation as it shifts. Resist moving to thought.",
       "trains": "Somatic writing; staying with bodily sensation",
       "depth": "deep",
       "order_hint": 8,
-      "lineage": "Contemporary somatic craft practice"
+      "lineage": "Contemporary somatic craft practice",
+      "context": "Most emotional prose moves too quickly from body to interpretation — the jaw tightens and then we immediately explain why or what it means. This exercise asks you to stay in the physical experience itself, tracking it as it shifts, without moving to thought. It's harder than it sounds: the mind wants to make meaning immediately. The body, left to itself, just experiences. Try to render that experience with the patience of someone who has nowhere else to be."
     },
     {
       "id": "sens-09",
       "craft_area": "sensory",
-      "text": "Describe a completely ordinary object \u2014 a spoon, a doorknob \u2014 as if you had never seen one and have no word for it. Make the familiar strange.",
+      "text": "Describe a completely ordinary object — a spoon, a doorknob — as if you had never seen one and have no word for it. Make the familiar strange.",
       "trains": "Defamiliarization; refreshing perception",
       "depth": "quick",
       "order_hint": 9,
-      "lineage": "Le Guin / Shklovsky: making strange"
+      "lineage": "Le Guin / Shklovsky: making strange",
+      "context": "Defamiliarization — making the familiar strange — is a technique for rescuing perception from habit. We stop seeing objects we live with; prose that describes them accurately is often just repeating what we already know. The constraint of having no word for the object forces you to describe function, surface, weight, the way it moves or reflects light — from scratch, as if reporting to someone who has never encountered it. The strangeness that results is often closer to how the thing actually is than our habitual language for it."
     },
     {
       "id": "sens-10",
@@ -202,25 +223,28 @@
       "trains": "Emotional power through understatement",
       "depth": "deep",
       "order_hint": 10,
-      "lineage": "Hemingway / iceberg restraint"
+      "lineage": "Hemingway / iceberg restraint",
+      "context": "Restraint is one of the most powerful tools in emotional writing, and one of the hardest to trust. The instinct is to amplify — to use heightened language when the content is heightened. But readers often feel more when they're given less, because the gap between the plain presentation and the enormous content is itself a kind of pressure. No adjectives of feeling means no grief, no terrible, no unbearable — just what happened. The flatness is not a failure of expression but a precise formal choice."
     },
     {
       "id": "sens-11",
       "craft_area": "sensory",
-      "text": "Build a scene where sound carries all the tension \u2014 a clock, footsteps, a dripping tap, a held breath. The reader should feel suspense through the ear.",
+      "text": "Build a scene where sound carries all the tension — a clock, footsteps, a dripping tap, a held breath. The reader should feel suspense through the ear.",
       "trains": "Sound as structural and emotional device",
       "depth": "focused",
       "order_hint": 11,
-      "lineage": "Le Guin: rhythm and sound as structure"
+      "lineage": "Le Guin: rhythm and sound as structure",
+      "context": "Suspense is often thought of as a plot mechanic, but it's also a sensory experience — the way sound fills silence, the way a small noise can be louder than a large one when the stakes are right. This exercise asks you to build tension through the ear alone, without relying on action or dialogue. The structural challenge is sequencing: sounds that crescendo, or that are interrupted, or that are conspicuously absent at a key moment. Let the reader's imagination do what the ear does in the dark."
     },
     {
       "id": "sens-12",
       "craft_area": "sensory",
-      "text": "Map an inner state onto a landscape \u2014 not as decoration, but as if the place were the feeling. Then cut every line that explains the connection.",
+      "text": "Map an inner state onto a landscape — not as decoration, but as if the place were the feeling. Then cut every line that explains the connection.",
       "trains": "Objective correlative; landscape as emotion",
       "depth": "deep",
       "order_hint": 12,
-      "lineage": "Eliot's objective correlative; Baxter"
+      "lineage": "Eliot's objective correlative; Baxter",
+      "context": "The objective correlative — the external situation that embodies and provokes an emotion — is one of the oldest ideas in literary craft. The exercise asks you to go further: not to find a landscape that reflects the feeling but to write the landscape as if it were the feeling, so completely that cutting the explanation doesn't lose anything. The instruction to cut every line that explains the connection is the real exercise. If the landscape needs explanation, it's not yet carrying the weight."
     },
     {
       "id": "dial-01",
@@ -229,7 +253,8 @@
       "trains": "Subtext: the gap between what is said and meant",
       "depth": "focused",
       "order_hint": 1,
-      "lineage": "Baxter / Novakovich: subtext in dialogue"
+      "lineage": "Baxter / Novakovich: subtext in dialogue",
+      "context": "Almost every argument between people who know each other well is really about something other than what it appears to be about. The dishes are never just the dishes. The skill in subtext is maintaining two tracks simultaneously — the stated subject (which must be real and plausible enough to sustain a scene) and the true subject (which must be present enough for the reader to feel it without being announced). If you find yourself tempted to have a character say \"this isn't really about the dishes,\" cut that line immediately."
     },
     {
       "id": "dial-02",
@@ -238,16 +263,18 @@
       "trains": "Clean dialogue mechanics; action beats over adverbs",
       "depth": "quick",
       "order_hint": 2,
-      "lineage": "Novakovich / Leonard: dialogue discipline"
+      "lineage": "Novakovich / Leonard: dialogue discipline",
+      "context": "Adverbs on dialogue tags (\"she said angrily,\" \"he replied softly\") are a way of not trusting the dialogue itself to carry tone. The discipline of using only \"said\" — nearly invisible as a tag — forces you to put the emotional information somewhere else: in the words themselves, or in the physical action beats. A character who slams a mug down and then says \"I'm fine\" communicates more than a character who says \"I'm fine\" angrily. A beat that just restates what the dialogue already says is dead weight."
     },
     {
       "id": "dial-03",
       "craft_area": "dialogue",
-      "text": "Take one neutral line \u2014 'You're early' \u2014 and give it to three different characters so it reads three different ways. Surround each with just enough context to bend the meaning.",
+      "text": "Take one neutral line — 'You're early' — and give it to three different characters so it reads three different ways. Surround each with just enough context to bend the meaning.",
       "trains": "Voice differentiation and context shaping meaning",
       "depth": "quick",
       "order_hint": 3,
-      "lineage": "Burroway: voice and characterization through speech"
+      "lineage": "Burroway: voice and characterization through speech",
+      "context": "Context is meaning. The same words carry entirely different charges depending on who speaks them, to whom, in what situation. This exercise makes that principle visceral by forcing you to solve the same problem three times, with different solutions each time. The surrounding context — gesture, setting, the relationship between speakers — is doing the work of bending meaning. Notice how little you need to change the actual line, and how much you need to change everything around it."
     },
     {
       "id": "dial-04",
@@ -256,7 +283,8 @@
       "trains": "Power dynamics and momentum in dialogue",
       "depth": "focused",
       "order_hint": 4,
-      "lineage": "Workshop standard: status and conflict"
+      "lineage": "Workshop standard: status and conflict",
+      "context": "Every conversation has a power dynamic, and in interesting scenes that dynamic is rarely static. Control passes through information (revealing or withholding), through tempo (speaking or going silent), through what you choose to respond to and what you ignore. The exercise asks you to make this movement visible — not by having characters announce it, but by letting the reader feel the shift as it happens. The instruction to end at the moment the shift completes gives you a natural scene boundary to work toward."
     },
     {
       "id": "dial-05",
@@ -265,16 +293,18 @@
       "trains": "Withholding; evasion as characterization",
       "depth": "focused",
       "order_hint": 5,
-      "lineage": "Baxter: the request moment and refusal"
+      "lineage": "Baxter: the request moment and refusal",
+      "context": "Evasion is characterization: the shape of what a person avoids tells you as much as what they'll say directly. The challenge is making the evasions varied enough to be interesting — the same deflection twice becomes a tic rather than a character. What does this person substitute for direct answer? Jokes? Counter-questions? Excessive detail about something adjacent? The reader should understand more about who this person is at the end of the scene than at the beginning, despite having received no direct information."
     },
     {
       "id": "dial-06",
       "craft_area": "dialogue",
-      "text": "Render a distinctive way of speaking \u2014 regional, generational, occupational \u2014 through word choice, rhythm, and syntax only. No phonetic misspelling allowed.",
+      "text": "Render a distinctive way of speaking — regional, generational, occupational — through word choice, rhythm, and syntax only. No phonetic misspelling allowed.",
       "trains": "Idiolect without dialect-spelling crutches",
       "depth": "deep",
       "order_hint": 6,
-      "lineage": "Le Guin: voice through syntax and diction"
+      "lineage": "Le Guin: voice through syntax and diction",
+      "context": "The shortcut to dialect is phonetic spelling, and it's almost always the wrong choice — it's hard to read, often condescending, and misses what actually makes a voice distinctive. What really differentiates voices is syntax (how sentences are built), diction (which words are chosen from all the available options), and rhythm (how long thoughts run before stopping). A person who learned English as a second language doesn't mispronounce words on the page — they use formal constructions where a native speaker would use contractions, or find precise words where a native speaker reaches for idiom."
     },
     {
       "id": "dial-07",
@@ -283,7 +313,8 @@
       "trains": "The unsaid; pacing through silence",
       "depth": "focused",
       "order_hint": 7,
-      "lineage": "Baxter: stillness and the unspoken"
+      "lineage": "Baxter: stillness and the unspoken",
+      "context": "Silence in dialogue is not absence but presence — a charged space that both speakers are aware of and moving around. The pauses and deflections should have weight; the reader should feel the pressure of the unspoken thing without being told what it is. An unfinished sentence is particularly powerful because it marks the exact moment a speaker reached the edge and pulled back. Read the scene aloud: the pauses are as important as the words, and they should feel earned rather than accidental."
     },
     {
       "id": "dial-08",
@@ -292,7 +323,8 @@
       "trains": "Dramatic irony through unguarded speech",
       "depth": "deep",
       "order_hint": 8,
-      "lineage": "Browning's dramatic monologue tradition"
+      "lineage": "Browning's dramatic monologue tradition",
+      "context": "The dramatic monologue is one of the oldest forms in literature, and its power comes from irony: the speaker believes they are presenting themselves one way; the reader receives something quite different. The speaker's blind spots, rationalizations, and unconscious disclosures are what you're after. This requires staying fully inside the speaker's voice — you cannot editorialize or stand outside them. The reader should know something by the end that the speaker would never admit to knowing about themselves."
     },
     {
       "id": "dial-09",
@@ -301,16 +333,18 @@
       "trains": "Cross-purpose dialogue and comic/tragic friction",
       "depth": "focused",
       "order_hint": 9,
-      "lineage": "Pinter-esque non-communication"
+      "lineage": "Pinter-esque non-communication",
+      "context": "Real conversation often isn't — it's two people waiting for the other to stop so they can say what they were already planning to say. Cross-purpose dialogue, where both speakers are following their own track, creates a particular kind of comedy or tragedy depending on the stakes. The near-misses are the point: the moments where they almost connect, almost understand each other, then slide past. This is more technically demanding than it looks because you have to sustain two parallel logics simultaneously without letting them resolve."
     },
     {
       "id": "dial-10",
       "craft_area": "dialogue",
-      "text": "Write a paragraph of speech in the voice of someone as unlike you as you can manage \u2014 different age, region, temperament. Inhabit the rhythm, not a caricature.",
+      "text": "Write a paragraph of speech in the voice of someone as unlike you as you can manage — different age, region, temperament. Inhabit the rhythm, not a caricature.",
       "trains": "Range; finding voices outside your own",
       "depth": "deep",
       "order_hint": 10,
-      "lineage": "LaPlante: stretching voice"
+      "lineage": "LaPlante: stretching voice",
+      "context": "Range is one of the undervalued aspects of craft. The default pull is toward voices adjacent to our own — same age, same education, same cultural references. This exercise asks you to genuinely inhabit something further away, and the caricature warning is there for a reason: the first draft of a voice unlike yours is often a collection of markers rather than a person. Rhythm is more important than diction here. Get the sentence rhythm right — how long the thoughts run, where they stop, how they restart — and the vocabulary will follow more naturally."
     },
     {
       "id": "dial-11",
@@ -319,7 +353,8 @@
       "trains": "Exposition through conflict, not info-dump",
       "depth": "focused",
       "order_hint": 11,
-      "lineage": "Workshop standard: dramatized exposition"
+      "lineage": "Workshop standard: dramatized exposition",
+      "context": "Exposition — the necessary information a reader needs — becomes an info-dump when it's delivered for the reader's benefit rather than the characters'. The trick is finding a situation where the characters themselves have a reason to say the thing: an argument is perfect because combatants routinely deploy history as ammunition. The exposition should feel like a weapon, not a briefing. If a character says it because the plot requires the reader to know it, cut it; if they say it because they're trying to wound someone with it, keep it."
     },
     {
       "id": "dial-12",
@@ -328,7 +363,8 @@
       "trains": "Implication; rendering the absent speaker",
       "depth": "focused",
       "order_hint": 12,
-      "lineage": "Classic one-sided dialogue exercise"
+      "lineage": "Classic one-sided dialogue exercise",
+      "context": "The absent speaker is one of the oldest constraints in drama, and it's productive precisely because it forces you to make one speaker's words carry both sides of the exchange. The listener's responses — what they say, when they pause, what they half-start and don't finish — must reconstruct the unheard voice for the reader. This is an exercise in implication: every line you write is also writing the line you're not writing. The absent speaker should feel just as present as the one on the page."
     },
     {
       "id": "theme-01",
@@ -337,7 +373,8 @@
       "trains": "Story versus plot; the role of causation",
       "depth": "quick",
       "order_hint": 1,
-      "lineage": "Forster: story vs. plot"
+      "lineage": "Forster: story vs. plot",
+      "context": "Forster's classic distinction between story and plot points to something fundamental about how narrative works. Causation is what transforms chronicle into narrative — it's the word \"because\" doing structural work. The exercise takes about thirty seconds to complete, but the feeling it produces — the way the second sentence suddenly has shape and meaning — is worth sitting with. Everything that follows in your longer work is an elaboration of that one causal link."
     },
     {
       "id": "theme-02",
@@ -346,16 +383,18 @@
       "trains": "Scene and summary; controlling narrative time",
       "depth": "focused",
       "order_hint": 2,
-      "lineage": "Burroway: pacing, scene vs. summary"
+      "lineage": "Burroway: pacing, scene vs. summary",
+      "context": "Controlling narrative time is one of the most important technical skills in fiction, and the two gears — scene and summary — require completely different muscles. Summary demands selection: of all that happened in ten years, which two or three things carry the weight? Scene demands patience: of all that happens in one minute, which sensory details build the experience of being there? Writers tend to default to one or the other; this exercise forces both in rapid succession so you can feel the difference in the engine."
     },
     {
       "id": "theme-03",
       "craft_area": "theme",
-      "text": "Write the single moment in which something becomes irreversible \u2014 a line crossed, a thing said that can't be unsaid. Just the turn, nothing before or after.",
+      "text": "Write the single moment in which something becomes irreversible — a line crossed, a thing said that can't be unsaid. Just the turn, nothing before or after.",
       "trains": "The turn; identifying the pivot of a story",
       "depth": "focused",
       "order_hint": 3,
-      "lineage": "Workshop standard: the turn / reversal"
+      "lineage": "Workshop standard: the turn / reversal",
+      "context": "Most scenes in fiction are approach — circling around the thing that matters. The turn, the pivot, the moment of no return is often a few sentences at most. This exercise asks you to isolate that moment and write it alone, without preamble or consequence. What makes it irreversible? Usually it's something said or done in front of a witness, or something that changes the character's own self-knowledge in a way that can't be unfelt. The before and after are implied; your job is just the hinge."
     },
     {
       "id": "theme-04",
@@ -364,7 +403,8 @@
       "trains": "Rhyming action; structural echo",
       "depth": "deep",
       "order_hint": 4,
-      "lineage": "Baxter: rhyming action"
+      "lineage": "Baxter: rhyming action",
+      "context": "Rhyming action — when an image or gesture returns at the end of a piece carrying new meaning — is one of the most satisfying structural moves in short fiction. The first appearance should feel almost trivial; if it's loaded on arrival, the return has nothing to add. The transformation happens because of everything that's occurred between the two moments: the same action, but the character (and reader) who encounters it the second time is not the same. After writing both beats, ask: does the second moment feel earned by what came between?"
     },
     {
       "id": "theme-05",
@@ -373,16 +413,18 @@
       "trains": "In medias res openings",
       "depth": "quick",
       "order_hint": 5,
-      "lineage": "Classical in medias res"
+      "lineage": "Classical in medias res",
+      "context": "In medias res — beginning in the middle — respects the reader's ability to orient themselves from context rather than exposition. The challenge is beginning with enough specificity that the reader has something to hold onto, without stopping to explain what's happening. The reader catches up while running, which means you need to give them something kinetic to run alongside. Avoid the temptation to loop back immediately and explain — trust that the context will accumulate as the scene moves forward."
     },
     {
       "id": "theme-06",
       "craft_area": "theme",
-      "text": "Choose one image \u2014 a key, a scar, a stalled clock \u2014 and thread it through three separate beats so it gathers meaning each time it returns.",
+      "text": "Choose one image — a key, a scar, a stalled clock — and thread it through three separate beats so it gathers meaning each time it returns.",
       "trains": "Recurring image; motif as meaning-maker",
       "depth": "deep",
       "order_hint": 6,
-      "lineage": "Forster: pattern and rhythm"
+      "lineage": "Forster: pattern and rhythm",
+      "context": "A motif is an image or object that gathers meaning through repetition. The key word here is \"gather\": on first appearance it should carry very little weight; on second it should carry more; on third it should feel almost inevitable. The image you choose matters — pick something that can plausibly appear in different contexts and be handled or observed or remembered in different ways. The meaning shouldn't be identical each time; it should deepen or shift in response to what the story has done to the reader between appearances."
     },
     {
       "id": "theme-07",
@@ -391,16 +433,18 @@
       "trains": "Non-linear structure; pattern beyond the dramatic arc",
       "depth": "deep",
       "order_hint": 7,
-      "lineage": "Alison: meander, spiral, explode"
+      "lineage": "Alison: meander, spiral, explode",
+      "context": "Not all stories move in a straight line from conflict to resolution. The spiral structure — returning to the same situation or image, but from a changed position — allows for a different kind of development: not progress but transformation. The prohibition on the straight arc is important. Resist the pull toward climax and resolution; instead ask what it means to return. What's the same? What's irrevocably different? The changed narrator is the engine here, not the changed situation."
     },
     {
       "id": "theme-08",
       "craft_area": "theme",
-      "text": "Write a present-tense moment that opens to contain a remembered one, then closes again \u2014 a frame around a memory. Make the return to the present land differently than the departure.",
+      "text": "Write a present-tense moment that opens to contain a remembered one, then closes again — a frame around a memory. Make the return to the present land differently than the departure.",
       "trains": "Framed structure; nesting past inside present",
       "depth": "focused",
       "order_hint": 8,
-      "lineage": "Workshop standard: frame narrative"
+      "lineage": "Workshop standard: frame narrative",
+      "context": "The frame structure — present containing past — is powerful because the act of remembering is itself a present-tense event. The memory doesn't just deliver information; it does something to the person doing the remembering. The instruction that the return to the present should \"land differently\" is the key: if the present scene is unchanged by the memory it held, you haven't yet found the right memory to put inside it. The frame should be transformed by what it contained."
     },
     {
       "id": "theme-09",
@@ -409,25 +453,28 @@
       "trains": "Endings; resonance over explanation",
       "depth": "focused",
       "order_hint": 9,
-      "lineage": "Baxter: endings and the open close"
+      "lineage": "Baxter: endings and the open close",
+      "context": "Endings are one of the hardest things to write well — they have to feel both surprising and inevitable, and they have to carry the weight of everything that came before without restating it. Writing the ending first, for a story that doesn't exist, frees you from the burden of the preceding narrative and lets you practice the feel of an ending: the change of register, the image that resonates rather than resolves, the sentence that stops because it's the right place to stop. What makes an ending resonate is usually that it implies rather than explains — it opens out rather than closes down."
     },
     {
       "id": "theme-10",
       "craft_area": "theme",
-      "text": "Write a chain of three events in which each one forces the next \u2014 remove the middle event and the third can't happen. Test the causal spine.",
+      "text": "Write a chain of three events in which each one forces the next — remove the middle event and the third can't happen. Test the causal spine.",
       "trains": "Causal structure; consequence as plot",
       "depth": "focused",
       "order_hint": 10,
-      "lineage": "Novakovich: plot as causation"
+      "lineage": "Novakovich: plot as causation",
+      "context": "Causation — the sense that events follow from each other with necessity — is what makes plot feel inevitable rather than arbitrary. The test of removing the middle event is a useful diagnostic for your own longer work too: if the third event could happen without the second, the second isn't doing enough work. This exercise builds the habit of asking \"what does this force?\" rather than \"what happens next?\" — a small shift in question that produces much tighter narrative structure."
     },
     {
       "id": "theme-11",
       "craft_area": "theme",
-      "text": "Let a theme emerge through repetition rather than statement. Pick an idea \u2014 say, the cost of leaving \u2014 and write three small images that carry it. Never name the theme.",
+      "text": "Let a theme emerge through repetition rather than statement. Pick an idea — say, the cost of leaving — and write three small images that carry it. Never name the theme.",
       "trains": "Theme by implication, not declaration",
       "depth": "deep",
       "order_hint": 11,
-      "lineage": "Workshop standard: dramatized theme"
+      "lineage": "Workshop standard: dramatized theme",
+      "context": "The most durable themes in fiction are never announced — they accumulate through a pattern of images, choices, and events that the reader senses before they can articulate. Stating a theme explicitly short-circuits this process; the reader receives the idea rather than having the experience of discovering it. The exercise asks for three images rather than three scenes: small, specific, sensory moments that each carry a piece of the thematic weight without ever becoming symbolic in a heavy-handed way."
     },
     {
       "id": "theme-12",
@@ -436,7 +483,8 @@
       "trains": "Compression; selection across a large time span",
       "depth": "deep",
       "order_hint": 12,
-      "lineage": "Alison / Burroway: compression and selection"
+      "lineage": "Alison / Burroway: compression and selection",
+      "context": "Compression is a distinct skill from condensation: condensation shrinks everything proportionally, but compression selects. A life told in a page cannot include everything — it must find the two or three moments that carry the weight of decades, and then trust the silences between them to hold what's left out. The single detail that must carry the weight of decades is the hardest choice: too universal and it becomes generic; too particular and it becomes only that person. The best such details are both — the specific thing that turns out to be everyone."
     }
   ]
 }
