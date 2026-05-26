@@ -2,7 +2,8 @@ const Database = require('better-sqlite3');
 const path = require('path');
 const fs = require('fs');
 
-const DB_PATH = path.join(__dirname, '..', 'data', 'workshop.db');
+// DB_PATH can be overridden by env var — useful when Railway mounts a persistent volume
+const DB_PATH = process.env.DB_PATH || path.join(__dirname, '..', 'data', 'workshop.db');
 const SEED_PATH = path.join(__dirname, '..', 'prompt_library_seed.json');
 
 let db;
